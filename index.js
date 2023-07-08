@@ -23,7 +23,7 @@ function game() {
   let computerWins = 0;
 
   for (let round = 0; round < 5; round++) {
-    let playerSelection = prompt("Enter your choice between Rock, Scissor, or Paper");
+    let playerSelection = prompt(`Enter your choice between Rock, Scissor, or Paper \n\t  You ${playerWins}: Computer ${computerWins}`);
     playerSelection = playerSelection.toLowerCase();
 
     if (
